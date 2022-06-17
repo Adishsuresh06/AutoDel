@@ -14,7 +14,7 @@ ADMINS = []
 for usr in environ.get("ADMINS").split():
     ADMINS.append(int(usr))
 
-START_MSG = "<b>Hai {},\nI'm a simple bot to delete group messages after a specific time</b>"
+START_MSG = "<b>Hai {},\nI'm a simple bot to delete messages after a particular time. If you want to use me contact @LoVe_MySeLf_168 </b>"
 
 
 User = Client(session_name=SESSION,
